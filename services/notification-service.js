@@ -1,4 +1,3 @@
-const NotificationRepository = require("../database/repository/notification-repository");
 const { FormatData } = require("../utils");
 const nodeMailer = require("nodemailer");
 const Notification = require("../database/models/Notification");

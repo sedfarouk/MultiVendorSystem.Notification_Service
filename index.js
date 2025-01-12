@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 app.use(express.static(__dirname + "/public"));
 
-const { CreateChannel, SubscribeMessage } = require("./utils");
+const { CreateChannel, SubscribeMessage } = require("./utils/index");
 
 require("dotenv").config();
 app.use(express.urlencoded({ extended: true }));
